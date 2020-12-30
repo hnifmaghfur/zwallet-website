@@ -5,7 +5,7 @@
 Zwallet Payment Website adalah Aplikasi pembayaran online berbasis website, dimana versi website ini menggunakan React JS sebagai framework utama pembuatan website ini. Dengan menggunakan Redux, React Hook, React Bootstrap, Bootstrap 4, untuk membangun frontend sedangkan Node JS, Express JS, JWT, Multer, Bcrypt digunakan untuk mendukung Backend. Website ini juga telah menggunakan Rest API dalam technology nya sehingga ada 2 server yang berjalan. Dengan dukungan dari AWS Educate maka sisi frontend maupun sisi backend dapat di deploy dan berjalan secara online.
 
 ## How To Access
-- Buka [Website]()
+- Buka [Website](http://bit.ly/zwalletWebLink)
 - Akses menggunakan akun <br>
 Email     : `hanif@gmail.com`<br>
 Password  : `hanif1`
