@@ -1,0 +1,277 @@
+.right .input input:focus {
+    outline: none;
+    border-bottom: 1.5px solid #6379F4;
+}
+
+.auth.right {
+    padding: 120px 150px 150px 40px;
+}
+
+.auth-left .logo {
+    margin-bottom: 40px;
+}
+
+.logo-navbarAdm {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.text-navbarAdm{
+    color:#000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.btn-navbarAdm{
+    color:#000;
+    font-weight: bold;
+}
+
+.btn-navbarAdm:hover{
+    color:#6379F4;
+    font-weight: bold;
+    border-bottom: 2px solid #6379F4;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.sponsor {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.desc-left {
+    width: 488px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+}
+
+.desc-right {
+    width: 433px;
+    color: rgba(58, 61, 66, 0.6);
+    margin-bottom: 60px;
+}
+
+.big {
+    font-size: 24px;
+}
+
+.start {
+    width: 384px;
+    margin-bottom: 30px;
+}
+
+.right .input {
+    position: relative;
+}
+
+.right .input input {
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid rgba(169, 169, 169, 0.6);
+    border-radius: 0px;
+    padding: 15px 40px;
+    background-color: transparent;
+}
+
+.person {
+    position: absolute;
+    top: 15px;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
+
+.mail {
+    position: absolute;
+    top: 15px;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
+
+.lock {
+    position: absolute;
+    top: 15px;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
+
+.eye-auth {
+    position: absolute;
+    top: 15px;
+    right: 0 !important;
+    cursor: pointer;
+}
+
+.right .input input:focus {
+    outline: none;
+    border-bottom: 1.5px solid #6379F4;
+}
+
+.right .input input::placeholder {
+    color: rgba(169, 169, 169, 0.8);
+    font-size: 16px;
+}
+
+.forgot {
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(58, 61, 66, 0.8);
+    float: right;
+    margin-bottom: 100px;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+.pin {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.pin input {
+    width: 53px;
+    height: 65px;
+    margin-right: 23px;
+    border: 1px solid rgba(169, 169, 169, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0px 10px 75px rgba(147, 147, 147, 0.1);
+    border-radius: 10px;
+    font-size: 30px;
+    color: #3A3D42;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pin input:focus {
+    border: 1px solid #6379F4 !important;
+    box-shadow: 0px 10px 75px rgba(147, 147, 147, 0.1);
+    border-radius: 10px;
+    outline: none;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.sponsor {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.desc-left {
+    width: 488px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+}
+
+.big {
+    font-size: 24px;
+}
+
+.status {
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    background-color:  #1EC15F;
+    border-radius: 35px;
+    padding-top: 14px;
+}
+
+.info {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.auth-left {
+    padding: 50px 0 50px 200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .auth.right {
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px !important;
+    }
+
+    .auth-left {
+        padding-left: 50px;
+    }
+
+    .right .item {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .auth-left {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .auth-left {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .auth .right .item {
+        align-self: center;
+    }
+
+    .start {
+        margin-top: 40px;
+    }
+
+    .auth.right {
+        padding: 10px !important;
+        border-radius: 25px 25px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right button {
+        margin: 0 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .auth-left {
+        background-color: #FAFCFF;
+        display: flex;
+        justify-content: center;
+        background-image: none !important;
+        box-shadow: 0px 0px 75px rgba(155, 155, 155, 0.15);
+        padding: 0;
+        padding-top: 60px;
+    }
+
+    .auth-left .image {
+        display: none;
+    }
+
+    .auth-left .title {
+        color: #6379F4 !important;
+        align-self: center;
+    }
+
+    .pin {
+        width: 100%;
+    }
+
+    .pin input {
+        margin-right: auto;
+    }
+
+    
+}
